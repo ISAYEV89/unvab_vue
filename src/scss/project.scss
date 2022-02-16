@@ -1,0 +1,60 @@
+.project {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+
+}
+
+.project-item {
+  padding: 0;
+  position: relative;
+  transition: background-color 1s;
+  display: block;
+
+  &:hover .project-item__hover {
+    opacity: 1;
+    margin-top: -4px;
+  }
+
+  &:hover {
+    background-color: rgba(0, 0, 0, .8);
+  }
+
+  &:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: inherit;
+    content: ' ';
+  }
+
+  &__link {
+
+  }
+
+  &__img {
+    width: 100%;
+    height: 370px;
+  }
+
+  &__hover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .5s ease;
+  }
+
+  &__span-top {
+    display: block;
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  &__span-bottom {
+    color: #fff;
+  }
+}

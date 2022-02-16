@@ -1,0 +1,32 @@
+.squares-svg {
+  display: flex;
+  justify-content: center;
+  padding: 19px;
+
+  &--grey {
+    background-color: #fafafa;
+  }
+}
+
+.squares {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-left: 0;
+  font-size: 18px;
+  margin-bottom: 0;
+
+  &__item {
+    margin: 5px 17px;
+    cursor: pointer;
+  }
+  &--grey {
+    background-color: #fafafa;
+  }
+}

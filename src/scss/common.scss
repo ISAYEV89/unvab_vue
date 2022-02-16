@@ -1,0 +1,85 @@
+html, body { font-size: 16px; }
+
+html {
+  @media (max-width: 575px) {
+    font-size: 13px;
+  }
+  @media (min-width: 576px) {
+    font-size: 13px;
+  }
+  @media (min-width: 768px) {
+    font-size: 14px;
+  }
+  @media (min-width: 992px) {
+    font-size: 15px;
+  }
+  @media (min-width: 1200px) {
+    font-size: 16px;
+  }
+}
+
+body {
+  //font-family: $font;
+  font-size: 1rem;
+  //color: $color;
+  //background: $white_smoke;
+}
+
+
+.h1-title {
+  font-size: 3.25rem;
+  margin-bottom: 0;
+  color: #fff;
+
+  &--mb {
+    margin-bottom: 2.25rem;
+  }
+}
+
+
+.h2-title {
+
+  font-size: 2.5rem;
+  margin-bottom: 0;
+  color: #171717;
+
+  &--mb {
+    margin-bottom:1.25rem;
+  }
+}
+
+
+.h4-title {
+  font-size: 0.875rem;
+  margin-bottom: 0;
+  color: #fff;
+
+  &--mb {
+    margin-bottom: 1rem;
+  }
+}
+
+
+.p-lead {
+  font-size: 1.25rem;
+  margin-bottom: 0;
+
+  &--mb {
+    margin-bottom: 1rem;
+  }
+
+  &--mb-xs {
+    margin-bottom: 3.25rem;
+  }
+}
+
+
+//blog-wrap
+
+.blog-wrap {
+
+}
+
+.bg-white {
+  background-color: #fff;
+}

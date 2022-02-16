@@ -1,0 +1,39 @@
+.box {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+
+  &:after {
+    content: "";
+    background-image: url(../src/img/bg-pattern.jpg);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2;
+    background-position: 50% 50%;
+    background-color: rgba(12, 12, 12, 0.6);
+    background-size: cover;
+  }
+
+}
+
+
+.box-item {
+  min-width: 50px;
+  display: flex;
+
+  &__icon {
+    margin-right: 1.5rem;
+  }
+
+  &__svg {
+    width: 50px;
+    height: 50px;
+  }
+
+  &__content {
+      color: #fff;
+  }
+}

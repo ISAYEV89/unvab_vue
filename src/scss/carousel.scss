@@ -1,0 +1,66 @@
+.review {
+  padding-top: 160px;
+  padding-bottom: 100px;
+  position: relative;
+  text-align: center;
+
+  &:after {
+    content: "";
+    background-image: url(../src/img/bg-pattern.jpg);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2;
+    background-position: 50% 50%;
+    background-color: rgba(12, 12, 12, 0.6);
+    background-size: cover;
+  }
+
+  &__item {
+    font-size: 26px;
+    color: #fff;
+    margin-bottom: 80px;
+  }
+
+  & .owl-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  & .owl-dots .owl-dot {
+    outline: none;
+
+    &:hover .owl-dots .owl-dot span {
+      background-color: #fff;
+    }
+  }
+
+  & .owl-dots .owl-dot span {
+    background-color: currentColor;
+    outline: none;
+    width: 8px;
+    height: 8px;
+
+    &:hover {
+      background-color: #fff;
+    }
+  }
+
+  & .owl-dots .active span {
+    height: 10px;
+    width: 10px;
+    background-color: #fff !important;
+  }
+}
+
+/*===========*/
+.partner {
+  padding-top: 37px;
+  padding-bottom: 37px;
+}
+
+/*===========*/
